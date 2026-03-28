@@ -9,7 +9,13 @@ document.querySelector("form").addEventListener("submit", function(e){
 
     let message = `New Admission Request:%0A
 Name: ${name}%0A
-Father: ${father}%0A
+Father: ${<a href="https://wa.me/919918384806"
+ target="_blank" 
+style="position:fixed; bottom:20px; right:20px; background:#25D366; color:white; padding:15px; border-radius:50%; font-size:24px; z-index:1000;">
+<i class="fab fa-whatsapp"></i>
+</a>}%0A
+
+
 Class: ${course}%0A
 Mobile: ${mobile}`;
 
@@ -19,3 +25,62 @@ Mobile: ${mobile}`;
     window.open(url, "_blank");
 });
 </script>
+<section class="py-5 bg-white">
+    <div class="container text-center">
+        <h2 class="fw-bold mb-5">हमारी गैलरी</h2>
+        <div class="row g-3">
+            <div class="col-md-4">
+                <img src="https://images.unsplash.com/photo-1588072432836-e10032774350" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4">
+                <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4">
+                <img src="https://images.unsplash.com/photo-1596495578065-6e0763fa1178" class="img-fluid rounded">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-4">नोटिस बोर्ड</h2>
+        <marquee class="bg-warning p-3 rounded">
+            📢 एडमिशन 2026 शुरू | 📢 नई बस सुविधा उपलब्ध | 📢 परीक्षा 10 अप्रैल से
+        </marquee>
+    </div>
+</section>
+
+
+<section class="py-5">
+    <div class="container text-center">
+        <h2 class="fw-bold mb-5">अभिभावकों की राय</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="feature-box">
+                    <p>"बहुत अच्छा स्कूल है, मेरे बच्चे का भविष्य सुरक्षित है।"</p>
+                    <strong>- अभिभावक</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<a href="tel:9918384806" 
+style="position:fixed; bottom:20px; left:20px; background:#007bff; color:white; padding:15px; border-radius:50%; font-size:20px;">
+📞
+</a>
+
+
+
+<link rel="icon" href="logo.png">
+
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+
+<meta name="description" content="Best School in Basti - JPRN Inter College Admission Open 2026">
+
+
