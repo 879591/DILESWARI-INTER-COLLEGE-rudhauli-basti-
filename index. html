@@ -1,0 +1,21 @@
+<script>
+document.querySelector("form").addEventListener("submit", function(e){
+    e.preventDefault();
+
+    let name = document.querySelector("input[type='text']").value;
+    let father = document.querySelectorAll("input[type='text']")[1].value;
+    let mobile = document.querySelector("input[type='tel']").value;
+    let course = document.querySelector("select").value;
+
+    let message = `New Admission Request:%0A
+Name: ${name}%0A
+Father: ${father}%0A
+Class: ${course}%0A
+Mobile: ${mobile}`;
+
+    let whatsappNumber = "919918384806"; // number change karo
+    let url = `https://wa.me/${whatsappNumber}?text=${message}`;
+
+    window.open(url, "_blank");
+});
+</script>
